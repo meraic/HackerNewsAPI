@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerNews.Api", "Santander.HackerNews.Api\HackerNews.Api.csproj", "{593FC563-00A4-41A6-BBC7-097CC0319B69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerNews.Models", "HackerNews.Models\HackerNews.Models.csproj", "{AA2D210D-26A5-4614-AE2B-4A161FA97084}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNews.Models", "HackerNews.Models\HackerNews.Models.csproj", "{AA2D210D-26A5-4614-AE2B-4A161FA97084}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerNews.Services", "HackerNews.Services\HackerNews.Services.csproj", "{AE877D23-7F7D-4A0A-8D91-CC4AFA42813D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNews.Services", "HackerNews.Services\HackerNews.Services.csproj", "{AE877D23-7F7D-4A0A-8D91-CC4AFA42813D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HasckerNews.Api.ViewModels", "HasckerNews.Api.ViewModels\HasckerNews.Api.ViewModels.csproj", "{AF5CD8BB-61B2-46F2-9E5C-7A42B2142362}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HasckerNews.Api.ViewModels", "HasckerNews.Api.ViewModels\HasckerNews.Api.ViewModels.csproj", "{AF5CD8BB-61B2-46F2-9E5C-7A42B2142362}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNews.Api.Services.Tests", "HackerNews.Api.Tests\HackerNews.Api.Services.Tests.csproj", "{7D075C8D-7CDA-477A-B35B-D722C5D2D33E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerNews.Api.Services.Tests", "HackerNews.Api.Tests\HackerNews.Api.Services.Tests.csproj", "{7D075C8D-7CDA-477A-B35B-D722C5D2D33E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8A5D058D-3F24-4BC9-9A8F-955B967299C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerNews.Api", "HackerNews.Api\HackerNews.Api.csproj", "{C727FBEA-430A-4986-9263-39102571F2CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{593FC563-00A4-41A6-BBC7-097CC0319B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{593FC563-00A4-41A6-BBC7-097CC0319B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{593FC563-00A4-41A6-BBC7-097CC0319B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{593FC563-00A4-41A6-BBC7-097CC0319B69}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AA2D210D-26A5-4614-AE2B-4A161FA97084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AA2D210D-26A5-4614-AE2B-4A161FA97084}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA2D210D-26A5-4614-AE2B-4A161FA97084}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,6 +37,10 @@ Global
 		{7D075C8D-7CDA-477A-B35B-D722C5D2D33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D075C8D-7CDA-477A-B35B-D722C5D2D33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D075C8D-7CDA-477A-B35B-D722C5D2D33E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C727FBEA-430A-4986-9263-39102571F2CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C727FBEA-430A-4986-9263-39102571F2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C727FBEA-430A-4986-9263-39102571F2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C727FBEA-430A-4986-9263-39102571F2CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
