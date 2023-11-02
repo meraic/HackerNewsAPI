@@ -13,7 +13,7 @@ The hacker new api, is a RESTful API to retrieve the details of the best n stori
 ## How to get the data
     - curl GET 'https://localhost:7056/v1.0/hackernews?nStories=50'
 
-## Assumtpions
+## Assumptions
   - The Hacker News API currently returns only top 500 best stories. If the API can return more then other scenario such as server side paging can be implemented
     
 ## Other Enhancements
